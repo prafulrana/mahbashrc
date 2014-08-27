@@ -7,7 +7,8 @@ PATH1="/usr/local/git/bin/"
 PATH2="/Volumes/praful/scripts"
 PATH3="/Volumes/praful/rbenv/.rbenv/bin"
 PATH4="/Applications/Xcode.app/Contents/Developer/usr/bin"
-PATHS_TO_CHECK="$PATH1 $PATH2 $PATH3 $PATH4 $PATH5 $PATH6 $PATH7"
+PATH8 ="/Users/Praful/Desktop/mongodb/bin"
+PATHS_TO_CHECK="$PATH1 $PATH2 $PATH3 $PATH4 $PATH5 $PATH6 $PATH7 $PATH8"
 
 for path in $PATHS_TO_CHECK; do
     case $PATH in
