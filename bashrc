@@ -1,5 +1,6 @@
 # !/bin/bash
 HISTFILESIZE=100000
+STUCK="A3-87YMB7-65LWLS-ZN8FF-9SECW-9X8M5-6LD6W"
 PATH6="usr/local/bin"
 PATH7="/usr/local/share/npm/bin/"
 PATH5="/usr/bin/"
