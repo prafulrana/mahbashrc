@@ -41,8 +41,13 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 
+
+# CRYPTO SCRIPTS
+export BOT1='ec2-user@ec2-18-163-180-174.ap-east-1.compute.amazonaws.com'
+alias cb1='ssh -i /Volumes/praful/main.pem $BOT1'
+alias bot1_logs='ssh -i /Volumes/praful/main.pem $BOT1 sudo docker logs binance_trader -f'
+
 # RUNNABLE SCRIPTS
-export DBN2='184.169.171.91'
 export PBN1='node1.runnablecloud.com'
 export PBN2='node2.runnablecloud.com'
 export PBN3='node3.runnablecloud.com'
@@ -51,8 +56,8 @@ export PBN5='node5.runnablecloud.com'
 export PBN6='node6.runnablecloud.com'
 
 # Aliases
-alias sub='/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text'
-alias ctdbn2='ssh -i /Volumes/praful/Box-Terminal-Proxy/keys/newprod.pem root@184.169.171.91'
+alias sub='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias cb1='ssh -i /Volumes/praful/main.pem $BOT1'
 alias ua='uname -a'
 alias ll='ls -lF'
 alias la='ls -lFA'
